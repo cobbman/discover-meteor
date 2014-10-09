@@ -13,6 +13,11 @@ var postsData = [
 		title: 'The Meteor Book',
 		author: 'Tom Coleman',
 		url: 'http://themeteorbook.com'
+	},	
+	{
+		title: 'More stuff',
+		author: 'William Cobb',
+		url: 'http://bigwilliam.com'
 	}	
 ];
 
