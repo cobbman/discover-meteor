@@ -5,10 +5,11 @@ Template.postSubmit.events({
 		var post = {
 			url: $(e.target).find('[name=url]').val(),
 			title: $(e.target).find('[name=title]').val(),
-			message: $(e.target).find('[name=message').val()
+			message: $(e.target).find('[name=message]').val(),
+			author: $(e.target).find('[name=author]').val()
 		}
 
 		post._id = Posts.insert(post);
-		Router.go('postsPage', post);
+		Router.go('postPage', post);
 	}
 })
